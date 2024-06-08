@@ -123,7 +123,7 @@ trainerdata 4, "Wade"
         ivs 0
         abilityslot 0
         level 2
-        pokemon SPECIES_CATERPIE
+        pokemon SPECIES_BLIPBUG
         ballseal 0
 
         // mon 1
@@ -144,7 +144,7 @@ trainerdata 4, "Wade"
         ivs 0
         abilityslot 0
         level 2
-        pokemon SPECIES_CATERPIE
+        pokemon SPECIES_NINCADA
         ballseal 0
     endparty
 

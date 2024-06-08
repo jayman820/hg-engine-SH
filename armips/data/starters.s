@@ -9,8 +9,8 @@
 // sequence. To update that text, modify text archive 190 in
 // DSPRE.
 .macro STARTER_CHOICES
-    .word SPECIES_ROWLET
-    .word SPECIES_FUECOCO
+    .word SPECIES_SNIVY
+    .word SPECIES_LITTEN
     .word SPECIES_FROAKIE
 .endmacro
 
