@@ -60,8 +60,14 @@ trainerdata 1, "Silver"
         ivs 30
         abilityslot 0
         level 18
-        pokemon SPECIES_BAYLEEF
+        pokemon SPECIES_GROTLE
         ballseal 0
+
+        // mon 3
+        ivs 30
+        abilityslot 0
+        level 14
+        pokemon SPECIES_SHELLOS
     endparty
 
 trainerdata 2, "Silver"
@@ -81,7 +87,7 @@ trainerdata 2, "Silver"
         ivs 0
         abilityslot 0
         level 5
-        pokemon SPECIES_CYNDAQUIL
+        pokemon SPECIES_TEPIG
         ballseal 0
     endparty
 
@@ -102,7 +108,7 @@ trainerdata 3, "Silver"
         ivs 0
         abilityslot 0
         level 5
-        pokemon SPECIES_TOTODILE
+        pokemon SPECIES_FROAKIE
         ballseal 0
     endparty
 
@@ -263,7 +269,7 @@ trainerdata 8, "Joey"
         ivs 0
         abilityslot 0
         level 4
-        pokemon SPECIES_RATTATA
+        pokemon SPECIES_RATTATA_ALOLAN
         ballseal 0
     endparty
 
@@ -819,6 +825,20 @@ trainerdata 26, "Roland"
         level 9
         pokemon SPECIES_NIDORAN_M
         ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 10
+        pokemon SPECIES_SPEWPA
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 8
+        pokemon SPECIES_SCATTERBUG
+        ballseal 0
     endparty
 
 trainerdata 27, "Liz"
@@ -839,6 +859,13 @@ trainerdata 27, "Liz"
         abilityslot 32
         level 8
         pokemon SPECIES_NIDORAN_F
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 7
+        pokemon SPECIES_BELLSPROUT
         ballseal 0
     endparty
 
@@ -1544,7 +1571,7 @@ trainerdata 47, "Mikey"
         ivs 0
         abilityslot 32
         level 4
-        pokemon SPECIES_RATTATA
+        pokemon SPECIES_ZIGZAGOON
         ballseal 0
     endparty
 
@@ -1593,14 +1620,14 @@ trainerdata 49, "Albert"
         ivs 0
         abilityslot 0
         level 6
-        pokemon SPECIES_RATTATA
+        pokemon SPECIES_YUNGOOS
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
         level 8
-        pokemon SPECIES_ZUBAT
+        pokemon SPECIES_WOOBAT
         ballseal 0
     endparty
 
@@ -1784,6 +1811,13 @@ trainerdata 56, "Gordon"
         level 10
         pokemon SPECIES_WOOPER
         ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 10
+        pokemon SPECIES_WOOPER_PALDEAN
+        ballseal 0
     endparty
 
 trainerdata 57, "Ralph"
@@ -1804,6 +1838,13 @@ trainerdata 57, "Ralph"
         abilityslot 0
         level 10
         pokemon SPECIES_GOLDEEN
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 9
+        pokemon SPECIES_FRILLISH
         ballseal 0
     endparty
 
@@ -1886,8 +1927,8 @@ trainerdata 60, "Henry"
         // mon 1
         ivs 0
         abilityslot 32
-        level 8
-        pokemon SPECIES_POLIWAG
+        level 9
+        pokemon SPECIES_DEWPIDER
         ballseal 0
     endparty
 
@@ -7864,7 +7905,7 @@ trainerdata 249, "Don"
         ivs 0
         abilityslot 0
         level 3
-        pokemon SPECIES_CATERPIE
+        pokemon SPECIES_GRUBBIN
         ballseal 0
     endparty
 
@@ -9330,14 +9371,21 @@ trainerdata 276, "Liz"
         ivs 0
         abilityslot 0
         level 35
-        pokemon SPECIES_WEEPINBELL
+        pokemon SPECIES_VICTREEBEL
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
         level 38
-        pokemon SPECIES_NIDORINA
+        pokemon SPECIES_NIDOQUEEN
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_ELDEGOSS
         ballseal 0
     endparty
 
@@ -9357,15 +9405,15 @@ trainerdata 277, "Liz"
         // mon 0
         ivs 0
         abilityslot 0
-        level 39
-        pokemon SPECIES_WEEPINBELL
+        level 40
+        pokemon SPECIES_VICTREEBEL
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
         level 38
-        pokemon SPECIES_NIDORINO
+        pokemon SPECIES_NIDOKING
         ballseal 0
 
         // mon 2
@@ -9373,6 +9421,13 @@ trainerdata 277, "Liz"
         abilityslot 32
         level 40
         pokemon SPECIES_NIDOQUEEN
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 32
+        level 39
+        pokemon SPECIES_ELDEGOSS
         ballseal 0
     endparty
 
@@ -9435,7 +9490,7 @@ trainerdata 279, "Joey"
         ivs 0
         abilityslot 0
         level 34
-        pokemon SPECIES_RATICATE
+        pokemon SPECIES_RATICATE_ALOLAN
         ballseal 0
     endparty
 
@@ -9456,11 +9511,11 @@ trainerdata 280, "Joey"
         ivs 0
         abilityslot 0
         level 40
-        pokemon SPECIES_RATICATE
-        move MOVE_SUPER_FANG
+        pokemon SPECIES_RATICATE_ALOLAN
+        move MOVE_DOUBLE_EDGE
         move MOVE_QUICK_ATTACK
-        move MOVE_HYPER_FANG
-        move MOVE_SCARY_FACE
+        move MOVE_SUCKER_PUNCH
+        move MOVE_CRUNCH
         ballseal 0
     endparty
 
@@ -12906,14 +12961,14 @@ trainerdata 383, "Peter"
         ivs 50
         abilityslot 32
         level 6
-        pokemon SPECIES_PIDGEY
+        pokemon SPECIES_SPEAROW
         ballseal 0
 
         // mon 2
         ivs 50
         abilityslot 0
         level 8
-        pokemon SPECIES_SPEAROW
+        pokemon SPECIES_STARLY
         ballseal 0
     endparty
 
@@ -15342,11 +15397,11 @@ trainerdata 460, "Wade"
         ivs 0
         abilityslot 0
         level 28
-        pokemon SPECIES_BUTTERFREE
-        move MOVE_BUG_BITE
-        move MOVE_SILVER_WIND
+        pokemon SPECIES_DOTTLER
+        move MOVE_LIGHT_SCREEN
+        move MOVE_REFLECT
         move MOVE_CONFUSION
-        move MOVE_GUST
+        move MOVE_STRUGGLE_BUG
         ballseal 0
 
         // mon 1
@@ -15375,11 +15430,11 @@ trainerdata 460, "Wade"
         ivs 0
         abilityslot 0
         level 28
-        pokemon SPECIES_BUTTERFREE
+        pokemon SPECIES_NINJASK
         move MOVE_BUG_BITE
-        move MOVE_GUST
-        move MOVE_SLEEP_POWDER
-        move MOVE_STUN_SPORE
+        move MOVE_AERIAL_ACE
+        move MOVE_DIG
+        move MOVE_AGILITY
         ballseal 0
     endparty
 
@@ -15400,11 +15455,11 @@ trainerdata 461, "Wade"
         ivs 0
         abilityslot 0
         level 18
-        pokemon SPECIES_METAPOD
-        move MOVE_BUG_BITE
-        move MOVE_STRING_SHOT
-        move MOVE_NONE
-        move MOVE_NONE
+        pokemon SPECIES_DOTTLER
+        move MOVE_LIGHT_SCREEN
+        move MOVE_REFLECT
+        move MOVE_CONFUSION
+        move MOVE_STRUGGLE_BUG
         ballseal 0
 
         // mon 1
@@ -15433,10 +15488,10 @@ trainerdata 461, "Wade"
         ivs 0
         abilityslot 0
         level 18
-        pokemon SPECIES_METAPOD
+        pokemon SPECIES_NINCADA
         move MOVE_BUG_BITE
-        move MOVE_STRING_SHOT
-        move MOVE_NONE
+        move MOVE_MUD_SLAP
+        move MOVE_HARDEN
         move MOVE_NONE
         ballseal 0
     endparty
@@ -15459,6 +15514,13 @@ trainerdata 462, "Ralph"
         abilityslot 0
         level 40
         pokemon SPECIES_SEAKING
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 41
+        pokemon SPECIES_JELLICENT
         ballseal 0
     endparty
 
@@ -15487,6 +15549,13 @@ trainerdata 463, "Ralph"
         abilityslot 0
         level 42
         pokemon SPECIES_SEAKING
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 46
+        pokemon SPECIES_JELLICENT
         ballseal 0
     endparty
 
@@ -17260,11 +17329,11 @@ trainerdata 510, "Joey"
         ivs 0
         abilityslot 0
         level 54
-        pokemon SPECIES_RATICATE
-        move MOVE_HYPER_FANG
+        pokemon SPECIES_RATICATE_ALOLAN
+        move MOVE_DOUBLE_EDGE
         move MOVE_QUICK_ATTACK
-        move MOVE_SUBSTITUTE
-        move MOVE_ENDEAVOR
+        move MOVE_SUCKER_PUNCH
+        move MOVE_CRUNCH
         ballseal 0
     endparty
 
@@ -17310,11 +17379,11 @@ trainerdata 512, "Wade"
         ivs 0
         abilityslot 0
         level 36
-        pokemon SPECIES_BUTTERFREE
-        move MOVE_BUG_BITE
-        move MOVE_GUST
-        move MOVE_SUPERSONIC
-        move MOVE_WHIRLWIND
+        pokemon SPECIES_ORBEETLE
+        move MOVE_BUG_BUZZ
+        move MOVE_PSYCHIC
+        move MOVE_CONFUSE_RAY
+        move MOVE_REFLECT
         ballseal 0
 
         // mon 1
@@ -17343,11 +17412,11 @@ trainerdata 512, "Wade"
         ivs 0
         abilityslot 0
         level 36
-        pokemon SPECIES_BUTTERFREE
-        move MOVE_STUN_SPORE
-        move MOVE_SLEEP_POWDER
-        move MOVE_CAPTIVATE
-        move MOVE_TAILWIND
+        pokemon SPECIES_SHEDINJA
+        move MOVE_SHADOW_SNEAK
+        move MOVE_SHADOW_CLAW
+        move MOVE_BUG_BITE
+        move MOVE_DIG
         ballseal 0
     endparty
 
@@ -17437,6 +17506,13 @@ trainerdata 515, "Ralph"
         abilityslot 0
         level 56
         pokemon SPECIES_SEAKING
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 58
+        pokemon SPECIES_JELLICENT
         ballseal 0
     endparty
 
@@ -17539,7 +17615,7 @@ trainerdata 518, "Liz"
         // mon 0
         ivs 0
         abilityslot 0
-        level 47
+        level 56
         pokemon SPECIES_VICTREEBEL
         ballseal 0
 
@@ -17555,6 +17631,13 @@ trainerdata 518, "Liz"
         abilityslot 32
         level 60
         pokemon SPECIES_NIDOQUEEN
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 32
+        level 58
+        pokemon SPECIES_ELDEGOSS
         ballseal 0
     endparty
 
