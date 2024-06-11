@@ -269,7 +269,7 @@ trainerdata 8, "Joey"
         ivs 0
         abilityslot 0
         level 4
-        pokemon SPECIES_RATTATA_ALOLAN
+        monwithform SPECIES_RATTATA, 1
         ballseal 0
     endparty
 
@@ -1816,7 +1816,7 @@ trainerdata 56, "Gordon"
         ivs 0
         abilityslot 0
         level 10
-        pokemon SPECIES_WOOPER_PALDEAN
+        monwithform SPECIES_WOOPER, 1
         ballseal 0
     endparty
 
@@ -9490,7 +9490,7 @@ trainerdata 279, "Joey"
         ivs 0
         abilityslot 0
         level 34
-        pokemon SPECIES_RATICATE_ALOLAN
+        monwithform SPECIES_RATICATE, 1
         ballseal 0
     endparty
 
@@ -9511,7 +9511,7 @@ trainerdata 280, "Joey"
         ivs 0
         abilityslot 0
         level 40
-        pokemon SPECIES_RATICATE_ALOLAN
+        monwithform SPECIES_RATICATE, 1
         move MOVE_DOUBLE_EDGE
         move MOVE_QUICK_ATTACK
         move MOVE_SUCKER_PUNCH
@@ -17329,7 +17329,7 @@ trainerdata 510, "Joey"
         ivs 0
         abilityslot 0
         level 54
-        pokemon SPECIES_RATICATE_ALOLAN
+        monwithform SPECIES_RATICATE, 1
         move MOVE_DOUBLE_EDGE
         move MOVE_QUICK_ATTACK
         move MOVE_SUCKER_PUNCH
