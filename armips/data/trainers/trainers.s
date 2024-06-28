@@ -17,35 +17,35 @@ LEVEL_SILVER_1 equ 5
 LEVEL_ROUTE_30 equ 6
 LEVEL_ROUTE_31 equ 8
 
-LEVEL_VIOLET_CITY equ 9 /* Used for Sprout Tower + Ruins of Alph /
+LEVEL_VIOLET_CITY equ 9 /* Used for Sprout Tower + Ruins of Alph */
 LEVEL_ELDER_LI equ 12
 LEVEL_VIOLET_GYM equ 12
 LEVEL_FALKNER equ 14
 
-LEVEL_ROUTE_32 equ 15 / Also for Route 46 /
-LEVEL_UNION_CAVE equ 17 / Also for Route 33 /
+LEVEL_ROUTE_32 equ 15 /* Also for Route 46 */
+LEVEL_UNION_CAVE equ 17 /* Also for Route 33 */
 LEVEL_SLOWPOKE_WELL equ 18
 LEVEL_PROTON_1 equ 19
 LEVEL_AZALEA_GYM equ 20
-LEVEL_BUGSY equ 21 / Also used for Silver /
+LEVEL_BUGSY equ 21 /* Also used for Silver */
 
-LEVEL_ROUTE_34 equ 22 / Also used for Ilex Forest /
-LEVEL_ROUTE_35 equ 23 / Also used for Goldenrod Tunnel, National Park, Route 36 /
+LEVEL_ROUTE_34 equ 22 /* Also used for Ilex Forest */
+LEVEL_ROUTE_35 equ 23 /* Also used for Goldenrod Tunnel, National Park, Route 36 */
 LEVEL_GOLDENROD_GYM equ 25
 LEVEL_WHITNEY equ 27
 
 LEVEL_ROUTE_37 equ 28
-LEVEL_ROUTE_42 equ 29 / Also used for Ecruteak City, Route 38 and Mt. Mortar /
-LEVEL_ROUTE_44 equ 30 / Also used for Burned Tower /
+LEVEL_ROUTE_42 equ 29 /* Also used for Ecruteak City, Route 38 and Mt. Mortar */
+LEVEL_ROUTE_44 equ 30 /* Also used for Burned Tower */
 LEVEL_SILVER_3 equ 33
 LEVEL_ECRUTEAK_GYM equ 33
 LEVEL_MORTY equ 35
 
-LEVEL_ROUTE_39 equ 34 / Also Surf areas like Union Cave, Ruins of Alph /
-LEVEL_LIGHTHOUSE equ 36 / Also for Route 40, 41 /
+LEVEL_ROUTE_39 equ 34 /* Also Surf areas like Union Cave, Ruins of Alph */
+LEVEL_LIGHTHOUSE equ 36 /* Also for Route 40, 41 */
 LEVEL_EUSINE equ 39
 LEVEL_CIANWOOD_GYM equ 38
-LEVEL_CHUCK equ 40 / Also for Lyra 3 /
+LEVEL_CHUCK equ 40 /* Also for Lyra 3 */
 
 LEVEL_SAFARI_ROCKET equ 39
 LEVEL_SAFARI_ROCKET_ADMIN equ 42
@@ -64,13 +64,13 @@ LEVEL_RADIO_TOWER_GRUNTS equ 50
 LEVEL_RADIO_TOWER_ADMINS equ 52
 LEVEL_GIOVANNI equ 55
 
-LEVEL_BLACKTHORN_AREAS equ 52 / Ice Path, Route 45 - Accessible after Pryce /
+LEVEL_BLACKTHORN_AREAS equ 52 /* Ice Path, Route 45 - Accessible after Pryce */
 LEVEL_BLACKTHORN_GYM equ 56
 LEVEL_CLAIR equ 57
 
 LEVEL_KIMONO_GIRLS equ 58
 LEVEL_EUSINE_2 equ 58
-LEVEL_ROUTE_27 equ 58 / Also for Route 26 */
+LEVEL_ROUTE_27 equ 58 /* Also for Route 26 */
 LEVEL_LYRA_4 equ 60
 LEVEL_VICTORY_ROAD equ 60
 LEVEL_SILVER_5 equ 62
