@@ -8,6 +8,96 @@
 .include "armips/include/movenums.s"
 .include "armips/include/monnums.s"
 
+REMATCH_LEVEL_1 equ 55 // After Radio Tower
+REMATCH_LEVEL_1A equ 60 // Trainers above Lv. 50 to start with
+REMATCH_LEVEL_2 equ 65 // After Hall of Fame
+REMATCH_LEVEL_3 equ 75 // After 16 badges
+
+LEVEL_SILVER_1 equ 5
+LEVEL_ROUTE_30 equ 6
+LEVEL_ROUTE_31 equ 8
+
+LEVEL_VIOLET_CITY equ 9 /* Used for Sprout Tower + Ruins of Alph /
+LEVEL_ELDER_LI equ 12
+LEVEL_VIOLET_GYM equ 12
+LEVEL_FALKNER equ 14
+
+LEVEL_ROUTE_32 equ 15 / Also for Route 46 /
+LEVEL_UNION_CAVE equ 17 / Also for Route 33 /
+LEVEL_SLOWPOKE_WELL equ 18
+LEVEL_PROTON_1 equ 19
+LEVEL_AZALEA_GYM equ 20
+LEVEL_BUGSY equ 21 / Also used for Silver /
+
+LEVEL_ROUTE_34 equ 22 / Also used for Ilex Forest /
+LEVEL_ROUTE_35 equ 23 / Also used for Goldenrod Tunnel, National Park, Route 36 /
+LEVEL_GOLDENROD_GYM equ 25
+LEVEL_WHITNEY equ 27
+
+LEVEL_ROUTE_37 equ 28
+LEVEL_ROUTE_42 equ 29 / Also used for Ecruteak City, Route 38 and Mt. Mortar /
+LEVEL_ROUTE_44 equ 30 / Also used for Burned Tower /
+LEVEL_SILVER_3 equ 33
+LEVEL_ECRUTEAK_GYM equ 33
+LEVEL_MORTY equ 35
+
+LEVEL_ROUTE_39 equ 34 / Also Surf areas like Union Cave, Ruins of Alph /
+LEVEL_LIGHTHOUSE equ 36 / Also for Route 40, 41 /
+LEVEL_EUSINE equ 39
+LEVEL_CIANWOOD_GYM equ 38
+LEVEL_CHUCK equ 40 / Also for Lyra 3 /
+
+LEVEL_SAFARI_ROCKET equ 39
+LEVEL_SAFARI_ROCKET_ADMIN equ 42
+LEVEL_OLIVINE_GYM equ 43
+LEVEL_JASMINE equ 45
+
+LEVEL_ROUTE_43 equ 44
+LEVEL_LAKE_OF_RAGE equ 44
+LEVEL_ROCKET_HIDEOUT equ 45
+LEVEL_SILVER_4 equ 48
+LEVEL_ROCKET_HIDEOUT_ADMIN equ 48
+LEVEL_MAHOGANY_GYM equ 48
+LEVEL_PRYCE equ 50
+
+LEVEL_RADIO_TOWER_GRUNTS equ 50
+LEVEL_RADIO_TOWER_ADMINS equ 52
+LEVEL_GIOVANNI equ 55
+
+LEVEL_BLACKTHORN_AREAS equ 52 / Ice Path, Route 45 - Accessible after Pryce /
+LEVEL_BLACKTHORN_GYM equ 56
+LEVEL_CLAIR equ 57
+
+LEVEL_KIMONO_GIRLS equ 58
+LEVEL_EUSINE_2 equ 58
+LEVEL_ROUTE_27 equ 58 / Also for Route 26 */
+LEVEL_LYRA_4 equ 60
+LEVEL_VICTORY_ROAD equ 60
+LEVEL_SILVER_5 equ 62
+LEVEL_ELITE_FOUR equ 64
+LEVEL_LANCE equ 66
+
+LEVEL_JOHTO_LEADER_REMATCH equ 60
+
+LEVEL_SS_AQUA equ 63
+LEVEL_KANTO_GYM_TRAINERS equ 68
+LEVEL_KANTO_GYM_LEADERS equ 72
+
+LEVEL_KANTO_TRAINERS equ 65
+LEVEL_KANTO_TRAINER_BONUS equ 2
+LEVEL_KANTO_TRAINER_BONUS_2 equ 4
+
+LEVEL_VIRIDIAN_GYM_TRAINERS equ 72
+LEVEL_BLUE equ 74
+
+LEVEL_CERULEAN_CAVE equ 72
+LEVEL_CERULEAN_CAVE_ROCKET_ADMIN equ 74
+LEVEL_SILVER_6 equ 77
+
+/* This is intentionally a bit of a jump! */
+LEVEL_CHAMPION_TOURNAMENT equ 84
+LEVEL_RED equ 87
+
 trainerdata 0, "-"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PKMN_TRAINER_0
