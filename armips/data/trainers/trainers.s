@@ -8,10 +8,10 @@
 .include "armips/include/movenums.s"
 .include "armips/include/monnums.s"
 
-REMATCH_LEVEL_1 equ 55 // After Radio Tower
-REMATCH_LEVEL_1A equ 60 // Trainers above Lv. 50 to start with
-REMATCH_LEVEL_2 equ 65 // After Hall of Fame
-REMATCH_LEVEL_3 equ 75 // After 16 badges
+REMATCH_LEVEL_1 equ 55 / After Radio Tower /
+REMATCH_LEVEL_1A equ 60 / Trainers above Lv. 50 to start with /
+REMATCH_LEVEL_2 equ 65 / After Hall of Fame /
+REMATCH_LEVEL_3 equ 75 / After 16 badges /
 
 LEVEL_SILVER_1 equ 5
 LEVEL_ROUTE_30 equ 6
